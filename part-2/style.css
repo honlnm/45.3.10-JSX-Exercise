@@ -1,0 +1,21 @@
+.name,
+.username,
+.date {
+    color: blue;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.message {
+    color: orangered;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.tweet_div {
+    border: solid;
+    border-color: black;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 20px;
+}
