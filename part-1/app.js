@@ -1,9 +1,9 @@
 const App = () => (
     <div>
-        <firstComponent />
-        <namedCompenent name="Nicole" />
+        <FirstComponent />
+        <NamedComponent name="Nicole" />
     </div>
 )
 
-reactDOM.render(<App />,
-    document.getElementById("root"));
+const root = document.getElementById("root");
+ReactDOM.createRoot(root).render(<App />);
