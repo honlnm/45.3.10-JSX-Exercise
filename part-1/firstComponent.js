@@ -1,0 +1,6 @@
+function firstComponent() {
+    return <h1>My very first component</h1>
+}
+
+reactDOM.render(<firstComponent />,
+    document.getElementById("root"));
